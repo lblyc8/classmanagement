@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lyc.classmanag.dao.StudentDao">
+    <select id="queryStudentAll" resultType="com.lyc.classmanag.entity.Student">
+        select * from studentinfo;
+    </select>
+
+    <select id="findStudent" parameterType="String" resultType="com.lyc.classmanag.entity.Student">
+        select * from studentinfo where Sno=#{Sno}
+        and Name=#{Name};
+    </select>
+</mapper>

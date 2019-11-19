@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lyc.classmanag.dao.CommitteeDao">
+    <select id="queryCommitteeAll" resultType="com.lyc.classmanag.entity.Committee">
+        select UserId,a.Name,Phone,Position from comittee a left join studentinfo b on a.UserId=b.Sno;
+    </select>
+
+    <insert id="insertCommittee" parameterType="com.lyc.classmanag.entity.Committee">
+        insert into comittee values(
+        #{UserId},
+        #{Name},
+        #{Position}
+        );
+    </insert>
+</mapper>
