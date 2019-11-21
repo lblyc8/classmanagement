@@ -6,7 +6,56 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d247d90b-76ac-4992-a244-63570efc2270" name="Default Changelist" comment="" />
+    <list default="true" id="d247d90b-76ac-4992-a244-63570efc2270" name="Default Changelist" comment="2019/11/21">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/committeePage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/editModal.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/insertCommitteeModal.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/insertStudentModal.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/sidebar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/studentPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/end.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/logoutModal.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/navbar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/controller/CommitteeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/controller/CommitteeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/dao/CommitteeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/dao/CommitteeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/entity/Committee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/entity/Committee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/service/CommitteeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/service/CommitteeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/service/impl/CommitteeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/service/impl/CommitteeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CommitteeDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CommitteeDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/servlet-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/servlet-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/HomePage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/HomePage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/committeeTest.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/studentTest.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/classmanag/controller/CommitteeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/classmanag/controller/CommitteeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/classmanag/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/classmanag/controller/StudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/classmanag/dao/CommitteeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/classmanag/dao/CommitteeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/classmanag/service/CommitteeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/classmanag/service/CommitteeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyc/classmanag/service/impl/CommitteeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyc/classmanag/service/impl/CommitteeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/CommitteeDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/CommitteeDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/servlet-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlet-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classmanag.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classmanag/WEB-INF/classes/applicationContext-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classmanag/WEB-INF/classes/applicationContext-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classmanag/WEB-INF/classes/com/lyc/classmanag/controller/CommitteeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classmanag/WEB-INF/classes/com/lyc/classmanag/controller/CommitteeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classmanag/WEB-INF/classes/com/lyc/classmanag/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classmanag/WEB-INF/classes/com/lyc/classmanag/controller/StudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classmanag/WEB-INF/classes/com/lyc/classmanag/dao/CommitteeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classmanag/WEB-INF/classes/com/lyc/classmanag/dao/CommitteeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classmanag/WEB-INF/classes/com/lyc/classmanag/service/CommitteeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classmanag/WEB-INF/classes/com/lyc/classmanag/service/CommitteeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classmanag/WEB-INF/classes/com/lyc/classmanag/service/impl/CommitteeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classmanag/WEB-INF/classes/com/lyc/classmanag/service/impl/CommitteeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classmanag/WEB-INF/classes/mapper/CommitteeDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classmanag/WEB-INF/classes/mapper/CommitteeDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classmanag/WEB-INF/classes/servlet-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classmanag/WEB-INF/classes/servlet-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classmanag/WEB-INF/lib/jackson-core-2.8.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classmanag/WEB-INF/views/admin/HomePage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/classmanag/WEB-INF/views/admin/HomePage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classmanag/WEB-INF/views/committeeTest.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classmanag/WEB-INF/views/studentTest.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classmanag/WEB-INF/views/tables.html" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,35 +70,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/dao/StudentDaoTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/sidebar.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
-              <folding>
-                <element signature="e#961#962#0" expanded="true" />
-                <element signature="e#997#998#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="340">
+              <caret line="33" column="123" selection-start-line="33" selection-start-column="123" selection-end-line="33" selection-end-column="123" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/insertStudentModal.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-580">
-              <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/controller/CommitteeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="380">
+              <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -57,74 +90,63 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/HomePage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="118" column="65" selection-start-line="118" selection-start-column="65" selection-end-line="118" selection-end-column="65" />
+            <state relative-caret-position="504">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/studentTest.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/committeePage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="102" column="99" selection-start-line="102" selection-start-column="99" selection-end-line="102" selection-end-column="99" />
+            <state relative-caret-position="357">
+              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/committeeTest.jsp">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="102" column="59" selection-start-line="102" selection-start-column="59" selection-end-line="102" selection-end-column="59" />
+            <state relative-caret-position="125">
+              <caret line="260" column="19" selection-start-line="260" selection-start-column="19" selection-end-line="260" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/service/StudentService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/studentPage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+            <state relative-caret-position="295">
+              <caret line="102" column="40" selection-start-line="102" selection-start-column="40" selection-end-line="102" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/entity/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1211#1212#0" expanded="true" />
+                <element signature="e#1238#1239#0" expanded="true" />
+                <element signature="e#1279#1280#0" expanded="true" />
+                <element signature="e#1311#1312#0" expanded="true" />
+                <element signature="e#1344#1345#0" expanded="true" />
+                <element signature="e#1372#1373#0" expanded="true" />
+                <element signature="e#1415#1416#0" expanded="true" />
+                <element signature="e#1449#1450#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/service/impl/StudentServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/insertCommitteeModal.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/controller/StudentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="555">
+              <caret line="65" column="6" lean-forward="true" selection-start-line="8" selection-end-line="65" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -137,26 +159,18 @@
         <option value="FxmlFile" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Jsp File" />
-        <option value="JUnit4 Test Class" />
         <option value="spring-beans.schema" />
+        <option value="JUnit4 Test Class" />
+        <option value="Jsp File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/servlet-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/dao/UserDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/MapUser.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/Login.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/controller/StudentController.java" />
@@ -170,29 +184,44 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student/classmate.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student/edit.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/servlet-config.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Login.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/HomePage.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tables.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/entity/Comittee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/entity/Committee.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/committeeTest.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/studentTest.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/CommitteeDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/service/impl/CommitteeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/service/CommitteeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/dao/CommitteeDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/StudentDao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/service/StudentService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/service/impl/StudentServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/dao/StudentDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/dao/StudentDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/insertCommitteeModal.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext-test.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/entity/Committee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/dao/CommitteeDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/servlet-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/dao/CommitteeDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/service/CommitteeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/service/impl/CommitteeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/CommitteeDao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyc/classmanag/controller/CommitteeController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/committeeTest.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/head.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/navbar.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/sidebar.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/logoutModal.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/end.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/editModal.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/committeeTest.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/studentTest.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/sidebar.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/insertStudent.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/HomePage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/committeePage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/studentPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/insertStudentModal.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -210,12 +239,13 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="964" />
-    <option name="y" value="48" />
-    <option name="width" value="1318" />
-    <option name="height" value="1836" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="284" />
+    <option name="y" value="92" />
+    <option name="width" value="1728" />
+    <option name="height" value="1476" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -358,6 +388,16 @@
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="classmanag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classmanag" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -367,12 +407,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mybatis_demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringWebTest" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -424,6 +465,37 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.0.53">
+    <configuration name="CommitteeDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="classmanag" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyc.classmanag.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyc.classmanag.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.lyc.classmanag.dao.CommitteeDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommitteeDaoTest.queryCommitteeById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="classmanag" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyc.classmanag.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyc.classmanag.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.lyc.classmanag.dao.CommitteeDaoTest" />
+      <option name="METHOD_NAME" value="queryCommitteeById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudentDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="classmanag" />
       <extension name="coverage">
@@ -450,37 +522,6 @@
       <option name="PACKAGE_NAME" value="com.lyc.classmanag.dao" />
       <option name="MAIN_CLASS_NAME" value="com.lyc.classmanag.dao.StudentDaoTest" />
       <option name="METHOD_NAME" value="findStudent" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="classmanag" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lyc.classmanag.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lyc.classmanag.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.lyc.classmanag.dao.UserDaoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserDaoTest.queryUserAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="classmanag" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lyc.classmanag.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lyc.classmanag.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.lyc.classmanag.dao.UserDaoTest" />
-      <option name="METHOD_NAME" value="queryUserAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -575,20 +616,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.UserDaoTest" />
-      <item itemvalue="JUnit.UserDaoTest.queryUserAll" />
       <item itemvalue="JUnit.UserDaoTest.queryUserById" />
       <item itemvalue="Tomcat Server.Tomcat 8.0.53" />
       <item itemvalue="JUnit.StudentDaoTest.findStudent" />
       <item itemvalue="JUnit.StudentDaoTest" />
+      <item itemvalue="JUnit.CommitteeDaoTest.queryCommitteeById" />
+      <item itemvalue="JUnit.CommitteeDaoTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CommitteeDaoTest.queryCommitteeById" />
+        <item itemvalue="JUnit.CommitteeDaoTest" />
         <item itemvalue="JUnit.StudentDaoTest" />
         <item itemvalue="JUnit.StudentDaoTest.findStudent" />
         <item itemvalue="JUnit.UserDaoTest.queryUserById" />
-        <item itemvalue="JUnit.UserDaoTest.queryUserAll" />
-        <item itemvalue="JUnit.UserDaoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -608,26 +649,11 @@
       <workItem from="1573438527310" duration="15684000" />
       <workItem from="1573462565200" duration="10788000" />
       <workItem from="1573538613271" duration="29303000" />
-      <workItem from="1573711877780" duration="52054000" />
+      <workItem from="1573711877780" duration="84102000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserDaoTest - 2019.11.11 at 15h 26m 08s.xml">
-      <configuration name="UserDaoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoTest - 2019.11.11 at 15h 26m 29s.xml">
-      <configuration name="UserDaoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoTest_queryUserAll - 2019.11.11 at 15h 27m 23s.xml">
-      <configuration name="UserDaoTest.queryUserAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserDaoTest_queryUserById - 2019.11.11 at 15h 33m 14s.xml">
-      <configuration name="UserDaoTest.queryUserById" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentDaoTest_findStudent - 2019.11.19 at 11h 45m 37s.xml">
-      <configuration name="StudentDaoTest.findStudent" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StudentDaoTest_findStudent - 2019.11.19 at 11h 46m 56s.xml">
       <configuration name="StudentDaoTest.findStudent" configurationId="JUnit" />
     </history-entry>
@@ -643,12 +669,27 @@
     <history-entry file="StudentDaoTest - 2019.11.19 at 13h 25m 22s.xml">
       <configuration name="StudentDaoTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CommitteeDaoTest_queryCommitteeById - 2019.11.19 at 16h 39m 34s.xml">
+      <configuration name="CommitteeDaoTest.queryCommitteeById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CommitteeDaoTest_queryCommitteeById - 2019.11.19 at 16h 43m 44s.xml">
+      <configuration name="CommitteeDaoTest.queryCommitteeById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CommitteeDaoTest - 2019.11.20 at 10h 15m 56s.xml">
+      <configuration name="CommitteeDaoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CommitteeDaoTest_queryCommitteeById - 2019.11.20 at 10h 16m 57s.xml">
+      <configuration name="CommitteeDaoTest.queryCommitteeById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CommitteeDaoTest_queryCommitteeById - 2019.11.20 at 10h 26m 56s.xml">
+      <configuration name="CommitteeDaoTest.queryCommitteeById" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107829000" />
+    <option name="totallyTimeSpent" value="139877000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="482" y="24" width="659" height="918" extended-state="0" />
+    <frame x="-6" y="-6" width="1309" height="925" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -658,7 +699,7 @@
       <window_info id="Learn" order="4" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info id="Designer" order="6" />
-      <window_info content_ui="combo" id="Project" order="7" weight="0.69550747" />
+      <window_info content_ui="combo" id="Project" order="7" weight="0.28297362" />
       <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -666,16 +707,16 @@
       <window_info anchor="bottom" id="Java Enterprise" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.32882273" />
       <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49960032" weight="0.30405405" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49960032" weight="0.15714286" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="10" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="Application Servers" order="14" weight="0.3294423" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.3294423" />
+      <window_info active="true" anchor="bottom" id="Messages" order="15" visible="true" weight="0.32857144" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Database" order="2" />
@@ -694,7 +735,7 @@
       <window_info id="Learn" order="4" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info id="Designer" order="6" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.69550747" />
+      <window_info content_ui="combo" id="Project" order="7" visible="true" weight="0.28297362" />
       <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -702,16 +743,16 @@
       <window_info anchor="bottom" id="Java Enterprise" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Terminal" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.32882273" />
       <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49960032" visible="true" weight="0.30405405" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.49960032" visible="true" weight="0.15714286" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="10" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="Application Servers" order="14" weight="0.3294423" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.3294423" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32857144" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Database" order="2" />
@@ -726,26 +767,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2019/11/21" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019/11/21" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6-sources.jar!/org/apache/ibatis/executor/BaseExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="284" selection-start-line="284" selection-end-line="284" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/Login.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role/admin.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/statics/js/npm.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/backstage/updatePwd.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/backstage/login.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/backstage/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student/common/footer.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student/classmate.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student/edit.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student/login.jsp" />
@@ -753,13 +779,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student/common/header.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/css/sb-admin.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="264" column="31" selection-start-line="264" selection-start-column="31" selection-end-line="264" selection-end-column="31" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -775,31 +794,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/servlet-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -814,56 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="506" column="16" selection-start-line="506" selection-start-column="16" selection-end-line="506" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/entity/Committee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/dao/CommitteeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/service/CommitteeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="52" selection-start-line="6" selection-start-column="18" selection-end-line="7" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -893,54 +841,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/service/impl/CommitteeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/entity/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-633">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#1211#1212#0" expanded="true" />
-            <element signature="e#1238#1239#0" expanded="true" />
-            <element signature="e#1279#1280#0" expanded="true" />
-            <element signature="e#1311#1312#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1372#1373#0" expanded="true" />
-            <element signature="e#1415#1416#0" expanded="true" />
-            <element signature="e#1449#1450#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/dao/StudentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CommitteeDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -958,31 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-test.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-580">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/dao/StudentDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
-          <folding>
-            <element signature="e#961#962#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/interceptor/LoginInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -993,20 +872,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/service/StudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/service/impl/StudentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1033,34 +902,254 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/controller/CommitteeController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/dao/StudentDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+        <state relative-caret-position="133">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/service/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="37" column="20" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="37" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/dao/StudentDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="26" column="65" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="26" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/entity/Committee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/dao/CommitteeDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/servlet-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/dao/CommitteeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/service/impl/CommitteeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/service/CommitteeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CommitteeDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/head.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/navbar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="67" column="6" selection-start-line="67" selection-start-column="6" selection-end-line="67" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/logoutModal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/controller/CommitteeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/end.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="85" selection-start-line="16" selection-start-column="85" selection-end-line="16" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/editModal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="83" column="9" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/Login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-580">
+          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/insertCommitteeModal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="65" column="6" lean-forward="true" selection-start-line="8" selection-end-line="65" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyc/classmanag/entity/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#1211#1212#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#1311#1312#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1372#1373#0" expanded="true" />
+            <element signature="e#1415#1416#0" expanded="true" />
+            <element signature="e#1449#1450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/sidebar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="33" column="123" selection-start-line="33" selection-start-column="123" selection-end-line="33" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/studentPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="102" column="40" selection-start-line="102" selection-start-column="40" selection-end-line="102" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/HomePage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="118" column="65" selection-start-line="118" selection-start-column="65" selection-end-line="118" selection-end-column="65" />
+        <state relative-caret-position="504">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/studentTest.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/committeePage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="102" column="99" selection-start-line="102" selection-start-column="99" selection-end-line="102" selection-end-column="99" />
+        <state relative-caret-position="357">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/committeeTest.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin/insertStudentModal.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="102" column="59" selection-start-line="102" selection-start-column="59" selection-end-line="102" selection-end-column="59" />
+        <state relative-caret-position="380">
+          <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="260" column="19" selection-start-line="260" selection-start-column="19" selection-end-line="260" selection-end-column="19" />
         </state>
       </provider>
     </entry>

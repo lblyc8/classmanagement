@@ -37,4 +37,5 @@ public class Committee {
     public String getPosition() {
         return Position;
     }
+
 }

@@ -18,6 +18,6 @@ public class StudentController {
     public String queryStudentAll(Model model){
         List<Student> studentList = studentService.queryStudentAll();
         model.addAttribute("studentList",studentList);
-        return "studentTest";
+        return "admin/studentPage";
     }
 }

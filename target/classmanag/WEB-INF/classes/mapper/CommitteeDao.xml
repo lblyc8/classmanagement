@@ -7,6 +7,11 @@
         select UserId,a.Name,Phone,Position from comittee a left join studentinfo b on a.UserId=b.Sno;
     </select>
 
+    <select id="queryCommitteeById" parameterType="String" resultType="com.lyc.classmanag.entity.Committee">
+        select UserId,a.Name,Phone,Position from comittee a left join studentinfo b on a.UserId=b.Sno
+        where UserId=#{UserId};
+    </select>
+
     <insert id="insertCommittee" parameterType="com.lyc.classmanag.entity.Committee">
         insert into comittee values(
         #{UserId},
@@ -14,4 +19,17 @@
         #{Position}
         );
     </insert>
+
+    <delete id="deleteCommittee" parameterType="String">
+        delete from comittee where UserId=#{UserId};
+    </delete>
+
+    <update id="updateCommittee" parameterType="com.lyc.classmanag.entity.Committee">
+        update comittee
+        <trim prefix="set" suffixOverrides=",">
+            <if test="Name!=null">Name=#{Name},</if>
+            <if test="Position!=null">Position=#{Position},</if>
+        </trim>
+        where (UserId=#{UserId});
+    </update>
 </mapper>

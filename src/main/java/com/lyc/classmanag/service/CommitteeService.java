@@ -8,4 +8,10 @@ public interface CommitteeService {
     List<Committee> queryCommitteeAll();
 
     int insertCommittee(Committee committee);
+
+    int deleteCommittee(String UserId);
+
+    Committee queryCommitteeById(String UserId);
+
+    int updateCommittee(Committee committee);
 }

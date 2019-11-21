@@ -26,4 +26,20 @@ public class CommitteeServiceImpl implements CommitteeService {
     public int insertCommittee(Committee committee) {
         return committeeDao.insertCommittee(committee);
     }
+
+    @Override
+    public int deleteCommittee(String UserId) {
+        return committeeDao.deleteCommittee(UserId);
+    }
+
+    @Override
+    public Committee queryCommitteeById(String UserId) {
+        Committee committee=committeeDao.queryCommitteeById(UserId);
+        return committee;
+    }
+
+    @Override
+    public int updateCommittee(Committee committee) {
+        return committeeDao.updateCommittee(committee);
+    }
 }
