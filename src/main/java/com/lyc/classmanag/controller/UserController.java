@@ -18,9 +18,11 @@ public class UserController {
     @RequestMapping(value = "/login.action",method = RequestMethod.POST)
     public String login(String username, String password, Model model, HttpSession session){
         User user = userService.findUser(username,password);
+        String role = userService.findRole(user.getUserId());
+        String page = userService.findPage(role);
         if (user != null) {
             session.setAttribute("USER_SESSION",user);
-            return "admin/HomePage";
+            return page + "/HomePage";
         }
         model.addAttribute("msg","账号或密码错误，请重新输入");
         return "Login";

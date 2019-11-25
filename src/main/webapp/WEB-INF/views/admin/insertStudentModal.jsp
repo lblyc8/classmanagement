@@ -6,6 +6,16 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/css/bootstrap-select.min.css">
+
+<link href="https://cdn.bootcss.com/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/js/bootstrap-select.min.js"></script>
+
+<script src="https://cdn.bootcss.com/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+
 <div class="modal fade" id="insertStudentModal" tabindex="2" role="dialog" aria-labelledby="insetStudentLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -25,37 +35,97 @@
                     </div>
                     <div class="form-group">
                         <div class="form-label-group">
-                            <input type="text" id="inputName" name="Name" class="form-control" placeholder="请输入姓名" required="required">
-                            <label for="inputName">请输入姓名</label>
+                            <input type="text" id="inputSName" name="Name" class="form-control" placeholder="请输入姓名" required="required">
+                            <label for="inputSName">请输入姓名</label>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="form-label-group">
-                           <select id="sel_sex" name="sex" class="custom-select" title="请选择">
-                               <option value="男">男</option>
-                               <option value="女">女</option>
+                           <select id="sel_sex" name="Sex" class="custom-select" title="请选择">
+                               <option value="">--请选择性别--</option>
+                               <option value="male">male</option>
+                               <option value="female">female</option>
                            </select>
                         </div>
                     </div>
+                    <div class="form-group">
+                        <div class="form-label-group">
+                            <input type="text" id="inputBirthday" name="Birthday" class="form-control" placeholder="请输入出生日期" required="required">
+                            <label for="inputBirthday">请输入出生日期</label>
+                        </div>
+                    </div>
+<%--                    <div class="form-group">--%>
+<%--                        <div class="input-group date" id="datePicker">--%>
+<%--                            <div class="form-label-group">--%>
+<%--                                <input type="text" class="form-control" id="sel_date" name="Birthday"/>--%>
+<%--                                <label for="sel_date">请选择出生日期</label>--%>
+<%--                            </div>--%>
+<%--                            <span class="input-group-addon">--%>
+<%--                                    <span class="glyphicon glyphicon-calendar"></span>--%>
+<%--                                </span>--%>
+<%--                        </div>--%>
+<%--                    </div>--%>
+                    <div class="form-group">
+                        <div class="form-label-group">
+                            <input type="text" id="inputPhone" name="Phone" class="form-control" placeholder="请输入手机号码" required="required">
+                            <label for="inputPhone">请输入手机号码</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-label-group">
+                            <input type="text" id="inputQQ" name="QQ" class="form-control" placeholder="请输入QQ">
+                            <label for="inputQQ">请输入QQ</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-label-group">
+                            <input type="text" id="inputEmail" name="Email" class="form-control" placeholder="请输入Email">
+                            <label for="inputEmail">请输入Email</label>
+                        </div>
+                    </div>
                 </form>
-                <button type="button" class="btn btn-primary btn-block" value="提交" onclick="createCommittee()">添加学生</button>
+                <button type="button" class="btn btn-primary btn-block" value="提交" onclick="createStudent()">添加学生</button>
             </div>
 
             <script>
                 function clearStudent() {
-
+                    $("#inputSno").val("");
+                    $("#inputSName").val("");
+                    $("#inputBirthday").val("");
+                    $("#inputPhone").val("");
+                    $("#inputQQ").val("");
+                    $("#inputEmail").val("");
                 }
 
-                function createCommittee() {
-                    $.post("${pageContext.request.contextPath}/insertCommittee.action",$("#insertCommitteeForm").serialize(),function (data) {
+                function createStudent() {
+                    $.post("${pageContext.request.contextPath}/insertStudent.action",$("#insertStudentForm").serialize(),function (data) {
                         if(data == "OK"){
-                            alert("班委添加成功！");
-                            window.location.replace("${pageContext.request.contextPath}/queryCommitteeAll");
+                            alert("学生添加成功！");
+                            window.location.replace("${pageContext.request.contextPath}/queryStudentAll");
                         }else{
-                            alert("班委添加失败,请核对UserId与姓名！");
+                            alert("学生添加失败,请核对各信息！");
                         }
                     });
                 }
+
+                // $(function () {
+                //     $('#datePicker').datetimepicker({
+                //         format:'YYYY-MM-DD',
+                //         locale:moment.local('zh-cn')
+                //     });
+                // })
+
+                // $(function () {
+                //     $(".selectpicker").selectpicker({
+                //         nonSelectedText:'请选择性别'
+                //     });
+                //     var select = $("#sel_sex");
+                //     select.append("<option value='男'>男</option>");
+                //     select.append("<option value='女'>女</option>");
+                //     $(window).on('load',function () {
+                //         $('.selectpicker').selectpicker('refresh');
+                //     })
+                // })
             </script>
             <%--            <div class="modal-footer">--%>
             <%--                <button class="btn btn-secondary" type="button" data-dismiss="modal">取消</button>--%>

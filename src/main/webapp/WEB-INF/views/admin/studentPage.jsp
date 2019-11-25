@@ -31,6 +31,7 @@
             </ol>
 
             <!-- DataTables Example -->
+            <script>$("td,th").addClass("text-center");</script>
             <div class="card mb-3">
                 <div class="card-header">
                     <i class="fas fa-table"></i>
@@ -47,6 +48,7 @@
                                 <th>电话</th>
                                 <th>QQ</th>
                                 <th>Email</th>
+                                <th>操作</th>
                             </tr>
                             </thead>
                             <tfoot>
@@ -58,6 +60,7 @@
                                 <th>电话</th>
                                 <th>QQ</th>
                                 <th>Email</th>
+                                <th>操作</th>
                             </tr>
                             </tfoot>
                             <tbody>
@@ -70,6 +73,10 @@
                                     <td>${student.phone}</td>
                                     <td>${student.QQ}</td>
                                     <td>${student.email}</td>
+                                    <td>
+                                        <a href="#" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#editStudentModal" onclick="initStudent(${student.sno})">修改</a>
+                                        <a href="#" class="btn btn-danger btn-xs" onclick="deleteStudent(${student.sno})">删除</a>
+                                    </td>
                                 </tr>
                             </c:forEach>
                             </tbody>
@@ -95,7 +102,28 @@
     <i class="fas fa-angle-up"></i>
 </a>
 
+<!--delete Student-->
+<script>
+    // 删除学生
+    function deleteStudent(Sno) {
+        if(confirm("确定要将学号为"+Sno+"的学生删除吗？")){
+            $.post("${pageContext.request.contextPath}/deleteStudent.action",{"Sno":Sno},
+                function (data) {
+                    if(data=="OK"){
+                        alert("成功！");
+                        window.location.reload();
+                    }else{
+                        alert("失败！");
+                        window.location.reload();
+                    }
+            });
+        }
+    }
+</script>
+
 <%@include file="insertCommitteeModal.jsp"%>
+
+<%@include file="editStudentModal.jsp"%>
 
 <!-- Logout Modal-->
 <%@include file="../common/logoutModal.jsp"%>

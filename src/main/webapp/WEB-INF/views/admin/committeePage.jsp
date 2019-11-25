@@ -39,30 +39,30 @@
                         <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                             <thead>
                             <tr>
-                                <th>学号</th>
-                                <th>姓名</th>
-                                <th>电话</th>
-                                <th>职位</th>
-                                <th>操作</th>
+                                <th class="text-center">学号</th>
+                                <th class="text-center">姓名</th>
+                                <th class="text-center">电话</th>
+                                <th class="text-center">职位</th>
+                                <th class="text-center">操作</th>
                             </tr>
                             </thead>
                             <tfoot>
                             <tr>
-                                <th>学号</th>
-                                <th>姓名</th>
-                                <th>电话</th>
-                                <th>职位</th>
-                                <th>操作</th>
+                                <th class="text-center">学号</th>
+                                <th class="text-center">姓名</th>
+                                <th class="text-center">电话</th>
+                                <th class="text-center">职位</th>
+                                <th class="text-center">操作</th>
                             </tr>
                             </tfoot>
                             <tbody>
                             <c:forEach items="${committeeList}" var="committee">
                                 <tr>
-                                    <td>${committee.userId}</td>
-                                    <td>${committee.name}</td>
-                                    <td>${committee.phone}</td>
-                                    <td>${committee.position}</td>
-                                    <td>
+                                    <td class="text-center">${committee.userId}</td>
+                                    <td class="text-center">${committee.name}</td>
+                                    <td class="text-center">${committee.phone}</td>
+                                    <td class="text-center">${committee.position}</td>
+                                    <td class="text-center">
                                         <a href="#" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#editCommitteeModal" onclick="initCommittee(${committee.userId})">修改</a>
                                         <a href="#" class="btn btn-danger btn-xs" onclick="deleteCommittee(${committee.userId})">删除</a>
                                     </td>
@@ -95,7 +95,7 @@
 <%@include file="../common/logoutModal.jsp"%>
 
 <!--edit Modal-->
-<%@include file="editModal.jsp"%>
+<%@include file="editCommitteeModal.jsp"%>
 <script>
     // 撤职
     function deleteCommittee(UserId) {

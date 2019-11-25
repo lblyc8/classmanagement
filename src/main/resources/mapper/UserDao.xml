@@ -7,4 +7,12 @@
         select * from userinfo where UserName=#{username}
         and Password=#{password};
     </select>
+
+    <select id="findRole" parameterType="String" resultType="String">
+        select Role from roleinfo where UserId = #{UserId};
+    </select>
+
+    <select id="findPage" parameterType="String" resultType="String">
+        select MenuUrl from pagejumping where Role=#{Role};
+    </select>
 </mapper>

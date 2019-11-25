@@ -19,4 +19,14 @@ public class UserServiceImpl implements UserService {
         User user = this.userDao.findUser(username, password);
         return user;
     }
+
+    @Override
+    public String findPage(String Role) {
+        return userDao.findPage(Role);
+    }
+
+    @Override
+    public String findRole(String UserId) {
+        return userDao.findRole(UserId);
+    }
 }

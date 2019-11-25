@@ -2,8 +2,10 @@ package com.lyc.classmanag.controller;
 
 import com.lyc.classmanag.entity.Committee;
 import com.lyc.classmanag.entity.Student;
+import com.lyc.classmanag.entity.User;
 import com.lyc.classmanag.service.CommitteeService;
 import com.lyc.classmanag.service.StudentService;
+import com.lyc.classmanag.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -11,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.http.HttpSession;
 import java.util.List;
 
 @Controller
@@ -19,12 +22,17 @@ public class CommitteeController {
     CommitteeService committeeService;
     @Autowired
     StudentService studentService;
+    @Autowired
+    UserService userService;
 
     @RequestMapping("queryCommitteeAll")
-    public String queryCommitteeAll(Model model){
+    public String queryCommitteeAll(Model model,HttpSession session){
+        User user = (User) session.getAttribute("USER_SESSION");
+        String role = userService.findRole(user.getUserId());
+        String page = userService.findPage(role);
         List<Committee> committeeList = committeeService.queryCommitteeAll();
         model.addAttribute("committeeList",committeeList);
-        return "admin/committeePage";
+        return page+"/committeePage";
     }
 
     @RequestMapping(value = "/insertCommittee.action",method = RequestMethod.POST)

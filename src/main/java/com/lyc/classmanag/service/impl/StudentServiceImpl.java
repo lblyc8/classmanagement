@@ -28,4 +28,24 @@ public class StudentServiceImpl implements StudentService {
         Student student = studentDao.findStudent(Sno, Name);
         return student;
     }
+
+    @Override
+    public int insertStudent(Student student) {
+        return studentDao.insertStudent(student);
+    }
+
+    @Override
+    public int deleteStudent(String Sno) {
+        return studentDao.deleteStudent(Sno);
+    }
+
+    @Override
+    public Student queryStudentById(String Sno) {
+        return studentDao.queryStudentById(Sno);
+    }
+
+    @Override
+    public int updateStudent(Student student) {
+        return studentDao.updateStudent(student);
+    }
 }

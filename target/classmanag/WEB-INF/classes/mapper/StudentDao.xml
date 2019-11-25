@@ -11,4 +11,37 @@
         select * from studentinfo where Sno=#{Sno}
         and Name=#{Name};
     </select>
+
+    <insert id="insertStudent" parameterType="com.lyc.classmanag.entity.Student">
+        insert into studentinfo values(
+        #{Sno},
+        #{Name},
+        #{Sex},
+        #{Birthday},
+        #{Phone},
+        #{QQ},
+        #{Email}
+        );
+    </insert>
+
+    <delete id="deleteStudent" parameterType="String">
+        delete from studentinfo where Sno=#{Sno};
+    </delete>
+
+    <select id="queryStudentById" parameterType="String" resultType="com.lyc.classmanag.entity.Student">
+        select * from studentinfo where Sno=#{Sno};
+    </select>
+
+    <update id="updateStudent" parameterType="com.lyc.classmanag.entity.Student">
+        update studentinfo
+        <trim prefix="set" suffixOverrides=",">
+            <if test="Name!=null">Name=#{Name},</if>
+            <if test="Sex!=null">Sex=#{Sex},</if>
+            <if test="Birthday!=null">Birthday=#{Birthday},</if>
+            <if test="Phone!=null">Phone=#{Phone},</if>
+            QQ=#{QQ},
+            Email=#{Email}
+        </trim>
+        where (Sno=#{Sno});
+    </update>
 </mapper>
