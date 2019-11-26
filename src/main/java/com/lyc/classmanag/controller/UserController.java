@@ -18,9 +18,9 @@ public class UserController {
     @RequestMapping(value = "/login.action",method = RequestMethod.POST)
     public String login(String username, String password, Model model, HttpSession session){
         User user = userService.findUser(username,password);
-        String role = userService.findRole(user.getUserId());
-        String page = userService.findPage(role);
         if (user != null) {
+            String role = userService.findRole(user.getUserId());
+            String page = userService.findPage(role);
             session.setAttribute("USER_SESSION",user);
             return page + "/HomePage";
         }
@@ -29,8 +29,11 @@ public class UserController {
     }
     //返回主页
     @RequestMapping(value = "/back.action")
-    public String backToHomePage(){
-        return "admin/HomePage";
+    public String backToHomePage(HttpSession session){
+        User user = (User) session.getAttribute("USER_SESSION");
+        String role = userService.findRole(user.getUserId());
+        String page = userService.findPage(role);
+        return page+"/HomePage";
     }
     //退出登录
     @RequestMapping(value = "/logout.action")
