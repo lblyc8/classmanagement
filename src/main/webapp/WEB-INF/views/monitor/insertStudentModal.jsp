@@ -30,13 +30,13 @@
                     <div class="form-group">
                         <div class="form-label-group">
                             <input type="text" id="inputSno" name="Sno" class="form-control" placeholder="请输入Sno" required="required" autofocus="autofocus">
-                            <label for="inputSno">请输入Sno</label>
+                            <label for="inputSno">请输入Sno(11位数字)</label>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="form-label-group">
-                            <input type="text" id="inputSName" name="Name" class="form-control" placeholder="请输入姓名" required="required">
-                            <label for="inputSName">请输入姓名</label>
+                            <input type="text" id="inputSName" name="Name" class="form-control" placeholder="请输入姓名" required="required" >
+                            <label for="inputSName">请输入姓名(10字符以内)</label>
                         </div>
                     </div>
                     <div class="form-group">
@@ -51,7 +51,7 @@
                     <div class="form-group">
                         <div class="form-label-group">
                             <input type="text" id="inputBirthday" name="Birthday" class="form-control" placeholder="请输入出生日期" required="required">
-                            <label for="inputBirthday">请输入出生日期</label>
+                            <label for="inputBirthday">请输入出生日期(yyyy-MM-dd)</label>
                         </div>
                     </div>
 <%--                    <div class="form-group">--%>
@@ -68,19 +68,19 @@
                     <div class="form-group">
                         <div class="form-label-group">
                             <input type="text" id="inputPhone" name="Phone" class="form-control" placeholder="请输入手机号码" required="required">
-                            <label for="inputPhone">请输入手机号码</label>
+                            <label for="inputPhone">请输入手机号码(11位数字)</label>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="form-label-group">
                             <input type="text" id="inputQQ" name="QQ" class="form-control" placeholder="请输入QQ">
-                            <label for="inputQQ">请输入QQ</label>
+                            <label for="inputQQ">请输入QQ(6-15位以内数字)</label>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="form-label-group">
                             <input type="text" id="inputEmail" name="Email" class="form-control" placeholder="请输入Email">
-                            <label for="inputEmail">请输入Email</label>
+                            <label for="inputEmail">请输入Email(40位以内字符)</label>
                         </div>
                     </div>
                 </form>

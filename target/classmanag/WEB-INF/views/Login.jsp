@@ -22,27 +22,50 @@
     <!-- Custom styles for this template-->
     <link href="${pageContext.request.contextPath}/statics/css/sb-admin.css" rel="stylesheet">
     <script>
+        function showMessage() {
+            $("#message").text(window.sessionStorage.getItem("message"));
+        }
+    </script>
+    <script>
         function check() {
-            var username=$("#username").val();
-            var password=$("#password").val();
-            if (username == "" || password == "") {
-                $("#message").text("账号密码不能为空！");
-                return false;
+            var username = $("#inputUsername").val();
+            var password = $("#inputPassword").val();
+            var message = "";
+            var pass = true;
+            if (username == "" || password == "" ||
+                username == undefined || password == undefined ||
+                username == null || password == null) {
+                message = "账号密码不能为空";
+                pass = false;
             }
-            return true;
+            // if (username.length < 5) {
+            //     message = message + "用户名不小于5位\n";
+            //     pass = false;
+            // }
+            // if (pass.equals(false)) {
+            //     $("#msg").text(message);
+            //     return ;
+            // }
+            if(!pass){
+                window.sessionStorage.setItem("message", message);
+                location.reload();
+            }
+            if(pass){
+                document.getElementById("userForm").submit();
+            }
         }
     </script>
 </head>
-<body class="bg-dark">
+<body class="bg-dark" onload="showMessage()">
 <div class="container">
     <div class="card card-login mx-auto mt-5">
         <div class="card-header">请登录</div>
         <div class="card-body">
-            <form action="${pageContext.request.contextPath}/login.action" method="post" onsubmit="return check()">
+            <form action="${pageContext.request.contextPath}/login.action" method="post" id="userForm">
                 <div class="form-group">
                     <div class="form-label-group">
-                        <input type="text" id="inputEmail" name="username" class="form-control" placeholder="Email address" required="required" autofocus="autofocus">
-                        <label for="inputEmail">请输入账号</label>
+                        <input type="text" id="inputUsername" name="username" class="form-control" placeholder="Email address" required="required" autofocus="autofocus" minlength="5" maxlength="8">
+                        <label for="inputUsername">请输入账号</label>
                     </div>
                 </div>
                 <div class="form-group">
@@ -59,9 +82,9 @@
                         </label>
                     </div>
                 </div>
-                <input type="submit" class="btn btn-primary btn-block" value="登录"/>
+                <input type="button" class="btn btn-primary btn-block" onclick="check()" value="提交"/>
             </form>
-            <div class="text-danger">
+            <div class="text-danger" id="message">
                 ${msg}
             </div>
         </div>
