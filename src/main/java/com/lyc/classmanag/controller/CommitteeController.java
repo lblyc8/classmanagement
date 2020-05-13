@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpSession;
 import java.util.List;
+import java.util.Set;
 
 @Controller
 public class CommitteeController {
@@ -28,7 +29,8 @@ public class CommitteeController {
     @RequestMapping("queryCommitteeAll")
     public String queryCommitteeAll(Model model,HttpSession session){
         User user = (User) session.getAttribute("USER_SESSION");
-        String role = userService.findRole(user.getUserId());
+        Set<String> roles = userService.findRole(user.getUserId());
+        String role = roles.iterator().next();
         String page = userService.findPage(role);
         List<Committee> committeeList = committeeService.queryCommitteeAll();
         model.addAttribute("committeeList",committeeList);

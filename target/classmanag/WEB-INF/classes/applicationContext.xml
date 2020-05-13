@@ -38,7 +38,7 @@
         <constructor-arg name="sqlSessionFactory" ref="sqlSessionFactory"/>
         <constructor-arg name="executorType" value="BATCH"/>
     </bean>
-
+<!--DAO所在包名-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="com.lyc.classmanag.dao"/>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
@@ -46,6 +46,34 @@
 
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+<!--配置自定义Realm-->
+    <bean id="myRealm" class="com.lyc.classmanag.shiro.MyRealm"/>
+<!--安全管理器-->
+    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <property name="realm" ref="myRealm"/>
+    </bean>
+<!--shiro过滤器核心-->
+    <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+        <property name="securityManager" ref="securityManager"/>
+<!--身份认证失败，跳转到登陆界面的配置（存疑）-->
+        <property name="loginUrl" value="/Login.jsp"/>
+<!--权限认证失败，则跳转到指定页面（还未写）-->
+        <property name="unauthorizedUrl" value="/nopower.jsp"/>
+<!--Shiro连接约束配置，即过滤链的定义（待定义）-->
+        <property name="filterChainDefinitions">
+            <value></value>
+        </property>
+    </bean>
+
+<!--保证Shiro内部Lifecycle函数的bean执行-->
+    <bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor"/>
+
+<!--开启Shiro注解-->
+    <bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator" depends-on="lifecycleBeanPostProcessor"/>
+    <bean class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
+        <property name="securityManager" ref="securityManager"/>
     </bean>
 
     <aop:config>

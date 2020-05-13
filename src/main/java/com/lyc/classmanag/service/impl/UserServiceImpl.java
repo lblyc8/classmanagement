@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.Set;
+
 @Service("userService")
 @Transactional
 public class UserServiceImpl implements UserService {
@@ -15,8 +17,8 @@ public class UserServiceImpl implements UserService {
     private UserDao userDao;
 
     @Override
-    public User findUser(String username, String password) {
-        User user = this.userDao.findUser(username, password);
+    public User findUserById(String UserId) {
+        User user = this.userDao.findUserById(UserId);
         return user;
     }
 
@@ -26,7 +28,12 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public String findRole(String UserId) {
+    public Set<String> findRole(String UserId) {
         return userDao.findRole(UserId);
+    }
+
+    @Override
+    public Set<String> findPermission(Set<String> Role) {
+        return userDao.findPermission(Role);
     }
 }

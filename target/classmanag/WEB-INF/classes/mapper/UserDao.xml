@@ -3,13 +3,16 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.lyc.classmanag.dao.UserDao">
-    <select id="findUser" parameterType="String" resultType="com.lyc.classmanag.entity.User">
-        select * from userinfo where UserName=#{username}
-        and Password=#{password};
+    <select id="findUserById" parameterType="String" resultType="com.lyc.classmanag.entity.User">
+        select * from userinfo where UserId=#{UserId};
     </select>
 
     <select id="findRole" parameterType="String" resultType="String">
         select Role from roleinfo where UserId = #{UserId};
+    </select>
+
+    <select id="findPermission" parameterType="String" resultType="String">
+        select Permission from permissioninfo where Role = #{Role};
     </select>
 
     <select id="findPage" parameterType="String" resultType="String">

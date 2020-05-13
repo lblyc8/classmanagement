@@ -2,10 +2,14 @@ package com.lyc.classmanag.service;
 
 import com.lyc.classmanag.entity.User;
 
-public interface UserService {
-    User findUser(String username,String password);
+import java.util.Set;
 
-    String findRole(String UserId);
+public interface UserService {
+    User findUserById(String UserId);
+
+    Set<String> findRole(String UserId);
+
+    Set<String> findPermission(Set<String> Role);
 
     String findPage(String Role);
 }

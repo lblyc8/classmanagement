@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpSession;
 import java.util.List;
+import java.util.Set;
 
 @Controller
 public class StudentController {
@@ -24,7 +25,8 @@ public class StudentController {
     @RequestMapping(value = "/queryStudentAll")
     public String queryStudentAll(Model model, HttpSession session){
         User user = (User) session.getAttribute("USER_SESSION");
-        String role = userService.findRole(user.getUserId());
+        Set<String> roles = userService.findRole(user.getUserId());
+        String role = roles.iterator().next();
         String page = userService.findPage(role);
         List<Student> studentList = studentService.queryStudentAll();
         model.addAttribute("studentList",studentList);

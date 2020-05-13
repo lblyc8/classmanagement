@@ -64,13 +64,13 @@
             <form action="${pageContext.request.contextPath}/login.action" method="post" id="userForm">
                 <div class="form-group">
                     <div class="form-label-group">
-                        <input type="text" id="inputUsername" name="username" class="form-control" placeholder="Email address" required="required" autofocus="autofocus" minlength="5" maxlength="8">
+                        <input type="text" id="inputUsername" name="UserId" class="form-control" placeholder="Email address" required="required" autofocus="autofocus" minlength="5" maxlength="15">
                         <label for="inputUsername">请输入账号</label>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="form-label-group">
-                        <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required="required">
+                        <input type="password" id="inputPassword" name="Password" class="form-control" placeholder="Password" required="required">
                         <label for="inputPassword">请输入密码</label>
                     </div>
                 </div>
